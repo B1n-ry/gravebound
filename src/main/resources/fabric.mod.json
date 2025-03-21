@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "gravebound",
+  "version": "${version}",
+  "name": "Gravebound",
+  "description": "Addon for You're in Grave Danger, adds the \"gravebound\" enchantment",
+  "authors": [
+    "b1n_ry"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.b1n_ry.gravebound.Gravebound"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
